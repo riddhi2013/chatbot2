@@ -1,0 +1,120 @@
+Context,Text Response,lemmatized_text,similarity_bow
+,"Sorry, I don't have an answer for this right now..",,0.0
+How to view the manual for calculating indicators and documenting practices from the EQAUP website?,"From the Guides icon at the top of the page or the Manuals icons on the EQAUP-PLUS home page
+
+When I click on Upload Evidence in the EQAUP system, I am not taken to the evidence page?
+Allow popups to appear.",how to view the manual for calculate indicator and document practice from the eqaup website,0.0
+What is the accreditation mechanism in the EQAUP system in case there are notes from the department head or the development agent (bachelor / master program models)?,"From the Forms Department - Approval of a Form - Approval Flow - Select ""Reject"" from the drop-down list - Submit
+Notice :
+1. If the rejection is from the head of the department, it will reach the coordinator directly
+2. If the rejection is from the Vice Dean for Development, the form will be returned to the head of the department and from there to the coordinator",what be the accreditation mechanism in the eqaup system in case there be note from the department head or the development agent bachelor master program model,0.0
+What is the endorsement mechanism in EQAUP in the absence of notes from the department head or the Vice dean for development (institutional accreditation / deanships)?,"The form is sent from the coordinator - the college 's vice dean for development - the dean
+The coordinator's path: managing forms --- filling out the form --- approval progress tab --- sending for approval
+The path of the College Development Vice-Dean / Dean: Managing Forms --- Approval Form --- Accreditation Progress Tab --- Select ""Accept"" from the drop-down menu --- Submit",what be the endorsement mechanism in eqaup in the absence of note from the department head or the vice dean for development institutional accreditation deanship,0.0
+"What is the endorsement mechanism in EQAUP for health colleges in the absence of notes, provided that the health college offers only one (bachelor / postgraduate) program?","The form is sent from the coordinator --- the college vice president for development
+Curator Path: Forms Management ---- Filling In The Form ---- Accreditation Progress Tab --- Submitting For Approval
+The path of the faculty development agent: Managing forms - Approving a form ---- Accreditation progress tab - Selecting “Accept” from the drop-down list ---- Submit
+Approval is made by the Vice Dean for Development twice, once for the Head of the Department and once for the College Vice Dean for Development.",what be the endorsement mechanism in eqaup for health college in the absence of note provide that the health college offer only one bachelor postgraduate program,0.0
+What is the accreditation mechanism in the EQAUP system in the absence of notes from the head of the department or the development agent (the college has more than one program)?,"The form is sent from the coordinator --- the department head --- the vice dean for development 
+The coordinator's path: managing forms --- filling out the form --- approval progress tab --- sending for approval
+Section Head / Vice Dean for Development: Forms Department --- Approval Form --- Accreditation Progress Tab --- Select ""Accept"" from the dropdown menu --- Submit",what be the accreditation mechanism in the eqaup system in the absence of note from the head of the department or the development agent the college have more than one program,0.0
+Is the EQAUP form sent for approval after filling out each axis separately?,"The form is sent for approval once after filling in all axes, practices and indicators.",be the eqaup form send for approval after fill out each axis separately,0.0
+When will the EQAUP models be activated?,"The forms for filling out are activated annually, as it is activated in the second month of the second semester of the current academic year and continues to the first month of the first semester of the following year.",when will the eqaup model be activate,0.0
+"When entering the EQAUP system from the unified access to the university systems, I am not transferred to the system page?",Allow popups to appear.,when enter the eqaup system from the unified access to the university system i be not transfer to the system page,0.0
+How is the EQAUP system accessed?,"The system is accessed through:
+1. The university's website by following the following path: Deanships - Deanship of Quality and Academic Accreditation (the deanship's home page) ---- electronic systems
+2. Direct link: http://eqaup.kau.edu.sa
+3. Single entry to university systems ---> Academic services.",how be the eqaup system access,0.0
+Is there a username and password for the EQAUP program?,"No, there is no username or password for the program, but you can enter the program with the same username and password to access the university network.",be there a username and password for the eqaup program,0.0
+What is meant by justifications in EQAUP forms?,"Clarify the reasons for the non-applicability of the practice or its non-relevance to the sector's activities (ie, if the answer is chosen “not applicable”). As well as explaining the reason for not applying the practice in the sector despite its close relationship with the sector's activities, i.e. if the answer is chosen (no).",what be mean by justification in eqaup form,0.0
+What are the conditions for uploading documents to the EQAUP system?,"1. The file type must be in (.pdf) format.
+2. The file size does not exceed 10 MB
+3. Only one file is uploaded. In the event that the practice requires documentation of more than one file, the files shall be combined into one file.",what be the condition for upload document to the eqaup system,0.0
+How can the coordinator obtain the authentication evidence that was uploaded in the last year?,"From the Reports and Statistics tab - a detailed report for the sector - from the report menu - choosing a summary of the form - selecting the required school year - pressing the results button - clicking on the details link (the last column in the table).
+Note: If the page does not open, allow popups to appear",how can the coordinator obtain the authentication evidence that be upload in the last year,0.0
+Where do we get the method for calculating the indicators?,From the EQAUP-PLUS website by referring to the Indicators Calculation Guide.,where do we get the method for calculate the indicator,0.0
+What is meant by target / target performance indicator after update?,"Target: the expected or desired outputs or results (goal) for each KPI
+
+The target after the update: establishing new expected or desired outputs / results for performance measurement indicators based on the results of the indicator analysis (actual and target)",what be mean by target target performance indicator after update,0.0
+How is the target performance indicator value determined after an update?,"In the event that the actual performance indicator reaches the target, a new target is written in the target performance indicator after the update, and if the actual indicator does not achieve the target, the target result is placed in the target after the update, taking into account the direction of the indicator (negative polarity / positive polarity)",how be the target performance indicator value determine after an update,0.0
+What is meant by the internal benchmark / external benchmark?,"Internal benchmarking are comparable indicators (actual indicators) from within the program (electronically withdrawn on the system from the data of the previous year’s form if the form is filled out)
+External benchmarking is comparable indicators (actual indicators) with the same program from another university (it does not need to be filled in on the system).",what be mean by the internal benchmark external benchmark,0.0
+What is meant by actual performance indicator?,The actual outputs or results identified when measuring or calculating performance indicators.,what be mean by actual performance indicator,0.0
+How is the performance indicator calculated as a percentage?,"The numerator and denominator values are entered, without multiplication (100 *) as the system multiplies (x 100) and calculates the result electronically.
+How is the performance indicator calculated from type number?
+The indicator (outside the system) is calculated according to the mathematical equation and the indicator result is entered in the numerator column only, and the system will perform. By dividing the number by (1) by default, it does not need to put a value in the denominator column.",how be the performance indicator calculate a a percentage,0.0
+How to fill in the performance indicator of the type attributable to one on the EQAUP-PLUS form?,"To fill the indicator from the type of number attributable to one: the values of the numerator and denominator are entered, and the result is calculated electronically.",how to fill in the performance indicator of the type attributable to one on the eqaupplus form,0.0
+"With regard to the indicators related to the ""Questionnaire"" system, from where are they obtained?",It is obtained by communicating with the Vice Dean of the College / Institute for Development.,with regard to the indicator relate to the questionnaire system from where be they obtain,0.0
+What is the method of the participation mechanism in the questionnaire?,"1. Log in to your university email and choose the relevant mail or enter the odus-plus system and click on the ""questionnaire"" banner.
+2. Click on the questionnaire link
+3. Fill out the questionnaire",what be the method of the participation mechanism in the questionnaire,0.0
+what is the mechanism for filling out the central questionnaires?,"1. Log in to your university email and choose the relevant mail or enter the odus-plus system and click on the ""questionnaire"" banner.
+2. Click on the questionnaire link
+3. Fill out the questionnaire",what be the mechanism for fill out the central questionnaire,0.0
+How long does it take to fill out the questionnaire?,The questionnaire should not be completed in more than 10 minutes,how long do it take to fill out the questionnaire,0.0
+What are the types of central questionnaires?,University Service Questionnaire - Preparatory Year Courses and Services Questionnaire - Field Training Questionnaire - Student Experience Questionnaire - Program Evaluation Questionnaire - Decided Evaluation Questionnaire - King Abdulaziz University Graduates Questionnaire - Employers Questionnaire - E-Learning Services Evaluation Questionnaire And Distance Education For Faculty Members,what be the type of central questionnaire,0.0
+Who are the target groups in the (questionnaire) system?,"1. University service questionnaire, faculty members - male and female students, except for preparatory year students
+2. A questionnaire for preparatory year curricula and services for students of the preparatory year
+3. A questionnaire for evaluating field training for male and female students registered in the field training course for non-health colleges
+4. Student experience evaluation questionnaire for male and female students who exceeded 50% of the total number of college hours for the plan
+5. A program evaluation questionnaire for male and female students expected to graduate
+6. A decided evaluation questionnaire for the decisions activated in the semester in which the male and female students are registered
+7. A questionnaire to evaluate e-learning and distance education services for faculty members
+8. A questionnaire for the opinions of King Abdulaziz University graduates for a graduate who has graduated one year
+9. Questionnaire for employers",who be the target group in the questionnaire system,0.0
+When will the central questionnaires be activated?,"University service questionnaire at the beginning of the academic year
+• Preparatory year services questionnaire eight weeks before the final exams
+• Field training evaluation questionnaire five weeks before the final exams
+• A questionnaire to evaluate the student’s experience five weeks before the final exams
+A program evaluation questionnaire five weeks before the final exams
+• A scheduled evaluation questionnaire four weeks before the final exams
+• A questionnaire for the opinions of graduates of King Abdulaziz University to be activated every semester
+When are the central questionnaires closed?
+University service questionnaire at the end of the academic year
+• Preparatory year services questionnaire, one day before the final exams
+• Field training evaluation questionnaire a week after the final exams
+• A questionnaire to evaluate the student’s experience a day before the final exams
+• Program evaluation questionnaire a day before the final exams
+• A scheduled evaluation questionnaire a day before the final exams",when will the central questionnaire be activate,0.0
+Can the completed questionnaire be re-activated?,"It is not possible to re-activate the completed questionnaire, because the identity is withheld to ensure the privacy and confidentiality of the answers, and we cannot reveal the identity.
+
+What is the reminder mechanism to fill out the central questionnaires?
+• E-mail
+• Text messages
+• The application for King Abdulaziz University MY-KAU",can the complete questionnaire be reactivate,0.0
+Can I share the survey link with others?,"You cannot share the survey link with others as the system creates a new link for each post
+What is the purpose of the central questionnaires?
+To develop and improve the educational process and university services",can i share the survey link with others,0.0
+Are the questionnaires activated according to specific dates?,"Yes, the questionnaires are activated according to specific dates that are announced at the beginning of each academic year through the schedule of development agents",be the questionnaire activate accord to specific date,0.0
+Who has the authority to view the results of the central questionnaires?,Development agents can view the results of the questionnaires through an indicator system (a questionnaire).,who have the authority to view the result of the central questionnaire,0.0
+Is my identity revealed when participating in the surveys?,"No, the system does not record the respondent's personal data, such as the university number or name, as it generates a random number for each response before it is recorded in the databases.",be my identity reveal when participate in the survey,0.0
+What are the most recent fields of learning used to formulate learning outcomes in accordance with the National Qualifications Framework?,"Three: (knowledge and understanding - skills - values, independence and responsibility)",what be the most recent field of learn use to formulate learn outcome in accordance with the national qualification framework,0.0
+What is the appropriate number of learning outcomes for the course?,4 - 7 learning outcomes,what be the appropriate number of learn outcome for the course,0.19611613513818404
+What is the appropriate number of learning outcomes for the program?,From 8 to 10 learning outcomes,what be the appropriate number of learn outcome for the program,0.0
+Is it necessary for each learning outcome to be covered by all courses?,"No, each learning outcome has a number of courses that are achieved through them. But overall, all learning outcomes must be covered by the decisions in the program plan.",be it necessary for each learn outcome to be cover by all course,0.18257418583505536
+How is the alignment of the learning outcomes of the premises with the learning outcomes of the program achieved?,It must be ensured that the learning outcomes in the course description are the same as those referred to in the learning outcomes matrix in the program description in terms of number and type of learning outcomes for each course.,how be the alignment of the learn outcome of the premise with the learn outcome of the program achieve,0.0
+How are learning strategies defined?,It must be taken into account that the learning strategies are commensurate with each type of learning outcome that ensures the delivery of (knowledge-skill-values) to the student.,how be learn strategy define,0.0
+How are strategies for measuring learning outcomes identified?,It must be taken into account that the strategies for measuring learning outcomes should be appropriate for each type of learning outcome that includes testing the extent to which (knowledge-skill-values) of the student is achieved.,how be strategy for measure learn outcome identify,0.0
+What is the difference between a program description and a program report?,"The program description is the program plan and contains the requirements that ensure the program achieves the learning outcomes
+A program report is a report on the problems that prevent the program from achieving its learning outcomes.",what be the difference between a program description and a program report,0.0
+How to apply for academic accreditation?,"The application is made by submitting an electronic request to the ""Etimad Plus"" system through the ""Enjaz"" system, and you can download the system guide through the Deanship's website https://dqaa.kau.edu.sa",how to apply for academic accreditation,0.0
+Can I get ISO 9001?,"Yes, but in view of the intellectual property rights, we hope that you will contact the Deanship",can i get iso,0.0
+What are the most prominent quality characteristics that can be established?,"1- Quality management system according to ISO 9001
+2- Information security system according to ISO 27001
+3- Business continuity system according to ISO 22301
+4- The educational process management system according to ISO 21001
+And other specifications, and for more information, we hope that you contact the Deanship.",what be the most prominent quality characteristic that can be establish,0.0
+What are the steps for establishing a quality system?,"1- The preparation stage includes spreading the culture of quality in the sector, identifying a work team and examining the requirements of the standard
+2- The planning stage, which includes determining the timetable for a project to establish a quality system
+3- The establishment and documentation phase and includes the implementation of the action plan, including identifying the stakeholders and their requirements, determining the legal requirements, identifying the risks and opportunities, writing the scope for the sector, the quality policy and the context, determining the objectives, determining and documenting the procedures, determining the responsibilities and powers.
+4- The implementation phase, which is concerned with activating the system
+5- The stage of checking the system and corrective actions
+6- Certification stage from the awarding body.",what be the step for establish a quality system,0.0
+What is the training schedule for the deanship?,You can view the training schedule on the Deanship's website at https://dqaa.kau.edu.sa,what be the training schedule for the deanship,0.22360679774997894
+How can I view the training courses provided by the Deanship?,You can view the training schedule on the Deanship's website at https://dqaa.kau.edu.sa,how can i view the training course provide by the deanship,0.408248290463863
+Are certificates awarded for training courses?,"According to the policy of the Deanship, certificates are not granted for virtual and traditional courses and lectures. Certificates are only granted to workshops when conditions are met. In a solution, certificates are awarded for training events, and this is included in the course advertisement.",be certificate award for training course,0.5773502691896258
+Are attestations granted for training courses?,"Yes, upon request, and it is only for employees of King Abdulaziz University",be attestation grant for training course,0.5773502691896258
+I registered for a training event and did not receive the confirmation link?,"In the event that the event is not public and is intended for university employees, you will receive a confirmation link 24 hours before the time of the event.",i register for a training event and do not receive the confirmation link,0.21320071635561044
+What are the types of training courses offered by the Deanship?,"1- Workshops by nomination
+2- Traditional lectures that are general for university employees
+3- Virtual lectures that are either public or private for university employees",what be the type of training course offer by the deanship,0.3922322702763681

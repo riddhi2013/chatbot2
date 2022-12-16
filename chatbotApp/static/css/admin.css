@@ -1,0 +1,88 @@
+#header{
+    background: #FFFFFF;
+    color: #000;
+  }
+
+#header a:link, #header a:visited {
+      color: #2b6471;
+  }
+
+#branding h1{
+     color: #4a6baa;
+  }
+
+#branding{
+    width: 800px;
+}
+
+#user-tools a:link, #header a:visited {
+    color: #4a6b52;
+}
+
+#user-tools{
+    padding-top: 100px;
+}
+
+div.breadcrumbs {
+    background: #AE8625;
+    color:#000000;
+    opacity:0.95;
+  }
+
+div.breadcrumbs a {
+    color: #000000;
+    opacity: 0.60;
+}
+
+.module h2, .module caption, .inline-group h2{
+    background: #4a6b52;
+    /* opacity:0.60; */
+    color: #FFFFFF;
+    height: 40px;
+    text-align: center;
+}
+
+.module caption a:link, .module caption a:visited{
+    color:#FFFFFF;
+}
+
+
+
+.content{
+    padding-left: 200px;
+    padding-right: 250px;
+    padding-top:15%;
+}
+
+.sticky{
+    height:550px;
+    width:600px;
+    padding-top: 60px;
+    background: ;
+}
+
+.sticky table a {
+    color:#000000;
+}
+
+.sticky table a:hover{
+    opacity: 0.5;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: #10287e;
+    color: #fff;
+    border-radius: 14px;
+  }
+  .button:hover, input[type=submit]:hover, input[type=button]:hover, input[type=button]:hover, .submit-row input:hover, a.button:hover{
+    background: #30caa0;
+    color: #333;
+  }
+  .button.default, input[type=submit].default, .submit-row input.default{
+    background: #30caa0;
+    color: #333;
+  }
+  .button.default:hover, input[type=submit].default:hover, .submit-row input.default:hover{
+    background: #10287e;
+    color: #fff;
+  }

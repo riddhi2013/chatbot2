@@ -1,0 +1,65 @@
+{% load static %}
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+<html>
+
+<head>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css"
+		rel="stylesheet">
+	<meta charset="utf-8" />
+	<title>Quality and Academic Accreditation Chatbot</title>
+	<!-- add icon link -->
+	<link rel="icon" href="{% static 'images/final_logo.jpg' %}" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">  
+	<script type="text/javascript" src= "{% static 'js/index.js' %}"> </script>
+</head>
+
+<div class="header">
+	<img src ="{% static 'images/final_logo.jpg' %}" id="page_logo" alt='logo' height="130" width="220" style="display: block; margin-left: auto; margin-right: auto;">
+	<!-- <img src="{% static 'images/bot_logo.jpeg' %}" id="logo_right" alt="logo_right" height="90" width="90"
+		style="float: left; margin-left: 15px;" />
+	<img src="{% static 'images/logo1.jpeg' %}" id="logo_left" alt="logo_left" height="70" width="169"
+		style="float: right; margin-right:20px; margin-top:10px;" /> -->
+
+	<!-- <h1><b>QUALITY AND ACADEMIC <br> ACCREDITATION CHATBOT</b> </h1> -->
+</div>
+
+<!-- <br> -->
+<hr />
+
+<body>
+	<div class="container">
+		<div class="SelectOption">
+			<p style="color:blue; font-size:16px">How can I help you?</p>
+			<button type="button" class="btn" id="aboutUs" onclick="SelectOptionValue('عن الخدمة')">عن الخدمة</button>
+			<button type="button" class="btn" id="ConsultMe" onclick="SelectOptionValue('استشرني')">استشرني</button>
+			<!-- <button type="button" class="btn" id="GainKnowledge" onclick="SelectOptionValue('مكتبة الجودة والاعتماد الأكاديمي')">مكتبة الجودة والاعتماد الأكاديمي</button> -->
+			<!-- <button type="button" class="btn" id="AskConsultant" onclick="SelectOptionValue('Ask Your Consultant')">Ask Your Consultant</button> -->
+		</div>
+	</div>
+	<div class="mesgs">
+
+		<div class="msg_history">
+			<div id="msg">
+			</div>
+			<form id="myForm" action="" method="GET" style="display: none;">
+				
+				
+				{%csrf_token%}
+				<div class="message-form">
+					<input id="title" type="text" name="title" placeholder="Type your message here...."
+						onkeyup="EnableDisable(this)" /><br />
+						<input id="msgType" type="hidden" name="msgType" />
+					<button type="submit" disabled='disabled' input id="send_button"><i class="fa fa-paper-plane"
+							aria-hidden="true"></i> Send</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>

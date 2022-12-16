@@ -1,0 +1,86 @@
+{% load static %}
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<html>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
+ <head>
+     <meta charset = "utf-8" />
+     <title> Form for material links </title>
+     <link rel = "icon" href ="{% static 'images/final_logo.jpg' %}" type = "image/x-icon">
+</head>
+
+<div class="header">
+    <img src ="{% static 'images/final_logo.jpg' %}" id="page_logo" alt='logo' height="130" width="220" style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+
+<hr />
+
+<body>
+<div class="container">
+    <div id="msg">
+        <p style="font-size:20px; font-weight: bold; text-align:center">MATERIAL FORM</p>
+    </div>
+
+    <form method = "post">
+    <div>
+        {% csrf_token %}
+<!--        {{form.as_p }}-->
+        <p>
+            <label for="id_new_topic"> Topic :</label>
+            <input type="text" name="new_topic" maxlength="100" required id="id_new_topic" placeholder="Enter topic here">
+        </p>
+        <p>
+            <label for="id_email_id">E-mail ID :</label>
+            <input type="email" name="email_id" maxlength="254" required id="id_email_id" placeholder="Enter an email ID where we can respond to you">
+        </p>
+        <p>
+            <input id="send_button" type="submit" value="Submit"/>
+        </p>
+    </div>
+    </form>
+</div>
+</body>
+</html>
+
+<style type="text/css">
+input[type=text], input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 160px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin:0 50%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  left: -100px;
+  position: relative;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0.5px;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+ </style>

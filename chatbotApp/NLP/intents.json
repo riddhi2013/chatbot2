@@ -1,0 +1,291 @@
+{"intents": [
+        {"tag": "EQAUP",
+         "patterns": ["Is there a username and password for the EQAUP program?", "Do I need a username and password for the EQAUP program?","Do I need a specific username and password for the EQAUP program?"," Do I need to contact the deanship to get my username and password for the EQAUP program?"],
+         "responses": ["No, there is no username or password for the program, but you can enter the program with the same username and password to access the university network", "No, you can use the credentials of the SSO"],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+         {"tag": "EQAUP system",
+         "patterns": ["How is the EQAUP system accessed?", "How can I access the EQAUP system?","What are the steps for accessign the EQAUP system?","Can I access the EQAUP?"],
+         "responses": ["The system is accessed through: 1. The university's website by following the following path: Deanships - Deanship of Quality and Academic Accreditation (the deanship's home page) ---- electronic systems 2. Direct link: http://eqaup.kau.edu.sa 3. Single entry to university systems ---> Academic services."],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+         {"tag": " university",
+         "patterns": ["When entering the EQAUP system from the unified access to the university systems, I am not transferred to the system page?","why I can not enter the eqaup system after logging in?","The eqaup system is not shwoing up even after logging in"],
+         "responses": ["Allow popups to appear","You should allow popups to appear"],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+        {"tag": "activated",
+         "patterns": ["When will the EQAUP forms be activated?", "When will the EQAUP system be activated?","What is the time for activaitng the eqaup system?","what is the activation cycle for EQAUP?"],
+         "responses": ["The forms for filling out are activated annually, as it is activated in the second month of the second semester of the current academic year and continues to the first month of the first semester of the following year."],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+        {"tag": "EQAUP approval",
+         "patterns": ["Is the EQAUP form sent for approval after filling out each axis separately?", "Is the EQAUP form sent for approval after filling out each standrd?","do I need to send  the EQAUP form for approval after filling out each axis separately?","do I need to send  the EQAUP form for approval after filling out each standrd?", "When sholud I send the eqaup form for approaval?"],
+         "responses": ["The form is sent for approval once after filling in all axes, practices and indicators"],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+         {"tag": "EQAUP endorsement mechanism",
+         "patterns": ["what is the endorsement mechanism of the eqaup forms? ", "what is the endorsement steps of the eqaup forms?","what is the work flow of endorsing the eqaup forms?"],
+         "responses": ["The form is sent from the coordinator --- the department head --- the vice dean for development---The coordinator's path: managing forms --- filling out the form --- approval progress tab --- sending for approval Section Head / Vice Dean for Development: Forms Department --- Approval Form --- Accreditation Progress Tab --- Select \"Accept\" from the dropdown menu --- Submit"],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+        {"tag": "EQAUP",
+         "patterns": ["what is the endorsement mechanism of the eqaup forms in the case where there is notes on the forms? ", "what is the endorsement steps of the eqaup forms in the case where there is notes on the forms?","what is the work flow of endorsing the eqaup forms in the case where there is notes on the forms?"],
+         "responses": ["From the Forms Department - Approval of a Form - Approval Flow - Select \"Reject\" from the drop-down list - Submit Notice : 1. If the rejection is from the head of the department, it will reach the coordinator directly 2. If the rejection is from the Vice Dean for Development, the form will be returned to the head of the department and from there to the coordinator"],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+        
+         {"tag": "EQAUP manuals",
+         "patterns": ["How to view the manual for calculating indicators and documenting practices from the EQAUP website?","how can I get the eqaup manuals?","It there a manual for using eqaup?", "how can I use eqaup?"],
+         "responses": ["You can get the system manual from the Guides icon at the top of the page or the Manuals icons on the EQAUP-PLUS home page"],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+        {"tag": "uploading documents",
+         "patterns": ["What are the conditions for uploading documents to the EQAUP system?","What are the file types for uploading documents to the EQAUP system?", "What are the limitations for uploading documents to the EQAUP system?"],
+         "responses": ["1. The file type must be in (.pdf) format. 2. The file size does not exceed 10 MB 3. Only one file is uploaded. In the event that the practice requires documentation of more than one file, the files shall be combined into one file."],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+         {"tag": "EQAUP justifications",
+         "patterns": ["What is meant by justifications in EQAUP forms?","what should I write in the justifications in the eqaup forms?"],
+         "responses": ["Clarify the reasons for the non-applicability of the practice or its non-relevance to the sector's activities (ie, if the answer is chosen “not applicable”). As well as explaining the reason for not applying the practice in the sector despite its close relationship with the sector's activities, i.e. if the answer is chosen (no)."],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+        {"tag": "EQAUP ",
+         "patterns": ["When I click on Upload Evidence in the EQAUP system, I am not taken to the evidence page?","the upload button is not working", "I'm unable to upload the evidence"],
+         "responses": ["Allow popups to appear."],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+         {"tag": "EQAUP",
+         "patterns": ["How can the coordinator obtain the evidence that was uploaded in the last year?", "How can the old evidance be retrieved?","is it possible to get access to the archived evidance?"],
+         "responses": ["From the Reports and Statistics tab - a detailed report for the sector - from the report menu - choosing a summary of the form - selecting the required school year - pressing the results button - clicking on the details link (the last column in the table). Note: If the page does not open, allow popups to appear"],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+        {"tag": "EQAUP",
+         "patterns": ["Where do we get the method for calculating the indicators?", "how to caclaute the KPIs in EQAUP?", "what are the formulas for caclauting the KPIs in eqaup?"],
+         "responses": ["From the EQAUP-PLUS website by referring to the Indicators Calculation Guide."],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+        {"tag": "EQAUP target",
+         "patterns": ["What is meant by target / target performance indicator after update?", "What is meant by target / target KPI after update?"],
+         "responses": ["Target: the expected or desired outputs or results (goal) for each KPI"],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+        {"tag": "EQAUP",
+         "patterns": ["How is the target performance indicator value determined after an update?","How is the target KPI value determined after an update?"],
+         "responses": ["In the event that the actual performance indicator reaches the target, a new target is written in the target performance indicator after the update, and if the actual indicator does not achieve the target, the target result is placed in the target after the update, taking into account the direction of the indicator (negative polarity / positive polarity)"],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+         {"tag": "EQAUP",
+         "patterns": ["What is meant by the internal benchmark / external benchmark?"],
+         "responses": ["Internal benchmarking are comparable indicators (actual indicators) from within the program (electronically withdrawn on the system from the data of the previous year’s form if the form is filled out) External benchmarking is comparable indicators (actual indicators) with the same program from another university (it does not need to be filled in on the system)."],
+         "context": ["EQAUP","EQAUP-Plus"]
+        },
+
+        {"tag": "Estebanh",
+         "patterns": ["What is the method of the participation mechanism in estenaha","how to particiapte in the survey?","what are steps for particiapting in Estebanh?"],
+         "responses": ["there are two ways: the univeristy email and via ODUS-Plus"],
+         "context": ["survey","questionnaire", "Centeralzied survey system","Evaluation platform"]
+        },
+
+         {"tag": "Estebanh",
+         "patterns": ["How long does it take to fill out the questionnaire?","How long does it take to fill out the survey?","does it take long time to fill in the survey?"],
+         "responses": ["The questionnaire should not be completed in more than 10 minutes"],
+         "context": ["survey","questionnaire", "Centeralzied survey system","Evaluation platform"]
+        },
+
+         {"tag": "Estebanh",
+         "patterns": ["What are the types of central questionnaires?", "how many surveys does Estebanh have?","the number of surveys the Estebanh system has"],
+         "responses": ["University Service Questionnaire - Preparatory Year Courses and Services Questionnaire - Field Training Questionnaire - Student Experience Questionnaire - Program Evaluation Questionnaire - Decided Evaluation Questionnaire - King Abdulaziz University Graduates Questionnaire - Employers Questionnaire - E-Learning Services Evaluation Questionnaire And Distance Education For Faculty Members"],
+         "context": ["survey","questionnaire", "Centeralzied survey system","Evaluation platform"]
+        },
+
+         {"tag": "Estebanh",
+         "patterns": ["Who are the target groups in the Estebanh system?", "who are Targeted by Estebanh?", "what are the groups who can particiapte in Estebanh?"],
+         "responses": ["1. University service questionnaire, faculty members - male and female students, except for preparatory year students 2. A questionnaire for preparatory year curricula and services for students of the preparatory year 3. A questionnaire for evaluating field training for male and female students registered in the field training course for non-health colleges 4. Student experience evaluation questionnaire for male and female students who exceeded 50% of the total number of college hours for the plan 5. A program evaluation questionnaire for male and female students expected to graduate 6. A decided evaluation questionnaire for the decisions activated in the semester in which the male and female students are registered 7. A questionnaire to evaluate e-learning and distance education services for faculty members 8. A questionnaire for the opinions of King Abdulaziz University graduates for a graduate who has graduated one year 9. Questionnaire for employers "],
+         "context": ["survey","questionnaire", "Centeralzied survey system","Evaluation platform"]
+        },
+
+         {"tag": "Estebanh",
+         "patterns": ["When will the central questionnaires be activated?", "When will Estebanh be activated?","what is the date of activaitng Estebanh?","when the evalution period starts in Estebanh?"],
+         "responses": ["University service questionnaire at the beginning of the academic year • Preparatory year services questionnaire eight weeks before the final exams • Field training evaluation questionnaire five weeks before the final exams          • A questionnaire to evaluate the student’s experience five weeks before the final exams A program evaluation questionnaire five weeks before the final exams • A scheduled evaluation questionnaire four weeks before the final exams • A questionnaire for the opinions of graduates of King Abdulaziz University to be activated every semester When are the central questionnaires closed? University service questionnaire at the end of the academic year • Preparatory year services questionnaire, one day before the final exams • Field training evaluation questionnaire a week after the final exams • A questionnaire to evaluate the student’s experience a day before the final exams • Program evaluation questionnaire a day before the final exams • A scheduled evaluation questionnaire a day before the final exams "],
+         "context": ["survey","questionnaire", "Centeralzied survey system","Evaluation platform"]
+        },
+
+         {"tag": "Estebanh",
+         "patterns": ["Can the completed questionnaire be re-activated?", "I did not fill in the surveys, can I refill them?"],
+         "responses": ["It is not possible to re-activate the completed questionnaire, because the identity is withheld to ensure the privacy and confidentiality of the answers, and we cannot reveal the identity"],
+         "context": ["survey","questionnaire", "Centeralzied survey system","Evaluation platform"]
+        },
+
+         {"tag": "Estebanh",
+         "patterns": ["What is the reminder mechanism to fill out the central questionnaires?","What is the reminder mechanism to fill out Estebanh?","what are the approach for reminding about Estebanh?"],
+         "responses": ["E-mail,  Text messages and the application for King Abdulaziz University MY-KAU"],
+         "context": ["survey","questionnaire", "Centeralzied survey system","Evaluation platform"]
+        },
+
+         {"tag": "survey link",
+         "patterns": ["Can I share the survey link with others?", "can I copy the link and share it with my friends?"],
+         "responses": ["You cannot share the survey link with others as the system creates a new link for each participant"],
+         "context": ["survey","questionnaire", "Centeralzied survey system","Evaluation platform"]
+        },
+
+         {"tag": "Estebanh",
+         "patterns": ["What is the purpose of the central questionnaires?", "what is Estebanh?","what is the goal of Estebanh?"],
+         "responses": ["Estebanh is a system aims to develop and improve the educational process and university services"],
+         "context": ["survey","questionnaire", "Centeralzied survey system","Evaluation platform"]
+        },
+
+        
+
+        {"tag": "Estebanh",
+         "patterns": ["Are the questionnaires activated according to specific dates?","are there specific dates for activating Estebanh?"],
+         "responses": ["Yes, the questionnaires are activated according to specific dates that are announced at the beginning of each academic year through the schedule of vice deanship for Development"],
+         "context": ["survey","questionnaire", "Centeralzied survey system","Evaluation platform"]
+        },
+
+        {"tag": "Estebanh",
+         "patterns": ["Who has the authority to view the results of the central questionnaires?","Who has the authority to view the results of Estebanh?","who can view the results of Estebanh?"],
+         "responses": ["vice deans for development can view the results of the questionnaires through Moshaer"],
+         "context": ["survey","questionnaire", "Centeralzied survey system","Evaluation platform"]
+        },
+
+        {"tag": "Estebanh",
+         "patterns": ["Is my identity revealed when participating in the surveys?","can anyone know who am I?","am I exposed in Estebanh?"],
+         "responses": ["No, the system does not record the respondent's personal data, such as the university number or name, as it generates a random number for each response before it is recorded in the databases."],
+         "context": ["survey","questionnaire", "Centeralzied survey system","Evaluation platform"]
+        },
+         {"tag": "Academic Accreditation",
+         "patterns": ["What are the most recent fields of learning used to formulate learning outcomes in accordance with the National Qualifications Framework?","What are the most recent fields of learning used to formulate learning outcomes in accordance with NQF?"],
+         "responses": ["Three: (knowledge and understanding - skills - values, independence and responsibility)"],
+         "context": ["NQF", "learning outcomes"]
+        },
+
+         {"tag": "Academic Accreditation",
+         "patterns": ["What is the appropriate number of learning outcomes for the course?", "is there a thrasholhd for the number of learning outcomes?","what is the number of LOs in a course?"],
+         "responses": ["4 - 7 learning outcomes"],
+         "context": ["course Learning outcomes","CLOs"]
+        },
+         {"tag": "Academic Accreditation",
+         "patterns": ["What is the appropriate number of learning outcomes for the program?","what is the range of PLOs?","what is the number of the Program learning outcomes?"],
+         "responses": ["From 8 to 10 learning outcomes"],
+         "context": ["PLOs", "program learning outcomes"]
+        },
+         {"tag": "Academic Accreditation",
+         "patterns": ["Is it necessary for each learning outcome to be covered by all courses?","do we have to cover the entire learning outcomes by each course?"],
+         "responses": ["No, each learning outcome has a number of courses that are achieved through them. But overall, all learning outcomes must be covered by the decisions in the program plan."],
+         "context": ["Accreditation", "learning outcomes"]
+        },
+         {"tag": "Academic Accreditation",
+         "patterns": ["How is the alignment of the learning outcomes of the premises with the learning outcomes of the program achieved?","How is the alignment of the learning outcomes with the learning outcomes of the program achieved?"],
+         "responses": ["It must be ensured that the learning outcomes in the course description are the same as those referred to in the learning outcomes matrix in the program description in terms of number and type of learning outcomes for each course."],
+         "context": ["Accreditation", "learning outcomes"]
+        },
+         {"tag": "Academic Accreditation",
+         "patterns": ["How are learning strategies defined?", "How are teaching strategies defined?"],
+         "responses": ["It must be taken into account that the learning strategies are commensurate with each type of learning outcome that ensures the delivery of (knowledge-skill-values) to the student."],
+         "context": ["Accreditation","teaching strategies"]
+        },
+         {"tag": "Academic Accreditation",
+         "patterns": ["How are strategies for measuring learning outcomes identified?","are there strategies for measuring learning outcomes identified?"],
+         "responses": ["It must be taken into account that the strategies for measuring learning outcomes should be appropriate for each type of learning outcome that includes testing the extent to which (knowledge-skill-values) of the student is achieved."],
+         "context": ["Accreditation","assessment"]
+        },
+
+        {"tag": "Academic Accreditation",
+         "patterns": ["What is the difference between a program description and a program report?", "what is program report?","what is program description?"],
+         "responses": ["The program description is the program plan and contains the requirements that ensure the program achieves the learning outcomes A program report is a report on the problems that prevent the program from achieving its learning outcomes"],
+         "context": ["program description","program report"]
+        },
+
+        {"tag": "Academic Accreditation",
+         "patterns": ["How to apply for academic accreditation?","what are the steps for applying for academic accrditation?","how to apply ofr NCAAA?", "how to apply for international accreditiation"],
+         "responses": [" The application is made by submitting an electronic request to the \"Etimad Plus\" system through the \"Enjaz\" system, and you can download the system guide through the Deanship's website https://dqaa.kau.edu.sa"],
+         "context": ["etemad", "Academic Accreditation","accrditation application"]
+        },
+
+        {"tag": "Quality",
+         "patterns": ["Can I get ISO 9001-2015 standrds?","is there a manual for the ISO 9001-2015?","is it possible to get the iso manuals?"],
+         "responses": ["Yes, but in view of the intellectual property rights, we hope that you will contact the Deanship"],
+         "context": ["ISO 9001","ISO 27001","ISO 45001","ISO 22301","ISO 10002","ISO 29993","Quality Manuals"]
+        },
+
+         {"tag": "prominent quality managment",
+         "patterns": ["What are the most prominent quality managment systems that can be established?","What are the most prominent QMS that can be established?","what are the ISO standrds that I can apply in my sector at KAU?"],
+         "responses": ["1- Quality management system according to ISO 9001 2- Information security system according to ISO 27001 3- Business continuity system according to ISO 22301 4- The educational process management system according to ISO 21001 And other specifications, and for more information, we hope that you contact the Deanship."],
+         "context": ["QMS", "quality managment system", "ISO"]
+        },
+
+         {"tag": " steps for Quality",
+         "patterns": ["What are the steps for establishing a quality system?","What are the steps for applying the ISO standrds?"],
+         "responses": ["1- The preparation stage includes spreading the culture of quality in the sector, identifying a work team and examining the requirements of the standard 2- The planning stage, which includes determining the timetable for a project to establish a quality system 3- The establishment and documentation phase and includes the implementation of the action plan, including identifying the stakeholders and their requirements, determining the legal requirements, identifying the risks and opportunities, writing the scope for the sector, the quality policy and the context, determining the objectives, determining and documenting the procedures, determining the responsibilities and powers. 4- The implementation phase, which is concerned with activating the system 5- The stage of checking the system and corrective actions 6- Certification stage from the awarding body."],
+         "context": ["ISO 9001","QMS","quality managment system","ISO"]
+        },
+
+         {"tag": "schedule the deanship",
+         "patterns": ["What is the training schedule for the deanship?What is the training schedule for the deanship?","Where can I find the training schedule for the deanship?","hat are the training offered by the deanship?","How can I view the training courses provided by the Deanship?"],
+         "responses": ["You can view the training schedule on the Deanship's website at https://dqaa.kau.edu.sa"],
+         "context": ["Training","training sessions", "training schedule"]
+        },
+
+          {"tag": "certificates",
+         "patterns": ["Are certificates awarded for training courses?","Are certificates awarded for training offered by the deanship?","how can I get a certificate for a training I attended"],
+         "responses": ["According to the policy of the Deanship, certificates are not granted for virtual and traditional courses and lectures. Certificates are only granted to workshops when conditions are met. In a solution, certificates are awarded for training events, and this is included in the course advertisement."],
+         "context": [""]
+        },
+         {"tag": "attestations granted",
+         "patterns": ["Are attestations granted for training courses?","Are attndace statement granted for training courses?"],
+         "responses": ["Yes, upon request, and it is only for employees of King Abdulaziz University"],
+         "context": [""]
+        },
+         {"tag": "Training confirmation link",
+         "patterns": ["I registered for a training event and did not receive the confirmation link?"],
+         "responses": ["In the event that the event is not public and is intended for university employees, you will receive a confirmation link 24 hours before the time of the event."],
+         "context": [""]
+        },
+         {"tag": "training courses",
+         "patterns": ["What are the types of training courses offered by the Deanship?"],
+         "responses": ["1- Workshops by nomination 2- Traditional lectures that are general for university employees 3- Virtual lectures that are either public or private for university employees "],
+         "context": [""]
+        },
+        
+
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
+         "responses": ["I can guide you through Adverse management problems, order tracking, person to be contacted and Department related queries","I can provide support related to following problems technical query,management related query,order related query,tracking related query,procurement query,outsourcing problem,manufacturing delay,"],
+         "context": [""]
+        },
+    {"tag":"domain",
+        "patterns":["How to improve team members domain knowledge","improving domain knowledge of team members"],
+        "responses":["set up key meetings and workshop,create a shared drive for information,Hold informal sharing session"],
+        "context":[""]
+    }
+   ]
+}

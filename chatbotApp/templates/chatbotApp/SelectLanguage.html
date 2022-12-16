@@ -1,0 +1,46 @@
+{% load static %}
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ IncludeSelect one language the above in your HEAD tag ---------->
+
+
+<html>
+
+<head>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css"
+		rel="stylesheet">
+	<meta charset="utf-8" />
+	<title>Quality and Academic Accreditation Chatbot</title>
+	<!-- add icon link -->
+	<link rel="icon" href="{% static 'images/final_logo.jpg' %}" type="image/x-icon">
+</head>
+
+<div class="header" height=15%>
+	<img src="{% static 'images/final_logo.jpg' %}" id="page_logo" alt='logo' height="120" width="250"
+		style="display: block; margin-left: auto; margin-right: auto;">
+
+</div>
+
+<!-- <br> -->
+<!-- <hr> -->
+
+<body>
+	<!-- <a href='chatbot'>
+		<div id="EnglishLanguage"
+			style="float: left; background-color:rgba(169, 126, 41, 0.30); width:50%; height:100%; top:120px;">
+			<center style="margin-top: 37.5%; font-size: 30px; font-family: 'Courier New', Courier, monospace;"> ENGLISH
+			</center>
+		</div>
+	</a> -->
+	<a href='chatbot_arabic'>
+		<div id="ArabicLanguage"
+			style="float: right; background-color: rgba(74, 107, 82, 0.50); width:50%; height:100%;top:120px;">
+			<center style="margin-top: 37.5%; font-size: 30px;font-family: 'Courier New', Courier, monospace;"> ARABIC
+			</center>
+		</div>
+	</a>
+
+</body>
+
+</html>

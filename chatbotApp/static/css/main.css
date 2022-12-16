@@ -1,0 +1,283 @@
+body {
+	overflow-y: auto;
+}
+
+.header h1 {
+	font-family : "Lucida Console", "Courier New", monospaces;
+	padding-top : 30px;
+	padding-left: 90px;
+	color       : #4a6bee;
+	text-align  : center;
+	font-size   : 24px;
+	text-shadow : 0.75px 1.25px 1.5px #5f5f5f;
+}
+
+.container {
+	max-width     : 1280px;
+	margin        : auto;
+	padding-bottom: 40px;
+	overflow-y    : hidden;
+}
+
+img {
+	max-width: 100%;
+}
+
+.inbox_people {
+	background  : #f8f8f8 none repeat scroll 0 0;
+	float       : left;
+	width       : 40%;
+	border-right: 1px solid #c4c4c4;
+	overflow-y  : auto;
+}
+
+.inbox_msg {
+	border  : 1px solid #c4c4c4;
+	clear   : both;
+	overflow: hidden;
+}
+
+.top_spac {
+	margin: 20px 0 0;
+}
+
+.recent_heading {
+	float: left;
+	width: 40%;
+}
+
+.srch_bar {
+	display   : inline-block;
+	text-align: right;
+	width     : 60%;
+}
+
+.headind_srch {
+	padding      : 10px 29px 10px 20px;
+	overflow     : hidden;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.recent_heading h4 {
+	color    : #05728f;
+	font-size: 21px;
+	margin   : auto;
+}
+
+.srch_bar input {
+	border      : 1px solid #cdcdcd;
+	border-width: 0 0 1px 0;
+	width       : 80%;
+	padding     : 2px 0 4px 6px;
+	background  : none;
+}
+
+.srch_bar .input-group-addon button {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border    : medium none;
+	padding   : 0;
+	color     : #707070;
+	font-size : 18px;
+}
+
+.srch_bar .input-group-addon {
+	margin: 0 0 0 -27px;
+}
+
+
+.incoming_msg_img {
+	display: inline-block;
+	width  : 4%;
+}
+
+.received_msg {
+	display       : inline-block;
+	padding       : 0 0 0 20px;
+	vertical-align: top;
+	width         : 45%;
+}
+
+.received_withd_msg p {
+	background   : #4a6b52;
+	border-radius: 3px;
+	color        : #dddddd;
+	font-size    : 14px;
+	margin       : 0;
+	padding      : 5px 10px 5px 12px;
+	width        : 100%;
+	font-family  : 'Courier New', Courier, monospace;
+}
+
+.time_date {
+	color    : #747474;
+	display  : block;
+	font-size: 12px;
+	opacity  : 0.75;
+	margin   : 8px 0 0;
+}
+
+.received_withd_msg {
+	width: 57%;
+}
+
+.mesgs {
+	float  : left;
+	padding: 30px 15px 0 25px;
+	width  : 100%;
+}
+
+
+.sent_msg p {
+	background   : #a97e29;
+	border-radius: 3px;
+	font-size    : 14px;
+	margin       : 0;
+	color        : #fff;
+	padding      : 5px 10px 5px 12px;
+	width        : 100%;
+	font-family  : 'Courier New', Courier, monospace;
+}
+
+.sent_msg_img {
+	display    : inline-block;
+	/* left    : -200; */
+	float      : right;
+	width      : 8%;
+	margin-left: 10px;
+}
+
+.outgoing_msg {
+	overflow      : hidden;
+	margin        : 26px 0 26px;
+	padding-bottom: 12px;
+}
+
+.sent_msg {
+	float         : right;
+	width         : 46%;
+	padding-bottom: 2%;
+}
+
+.input_msg_write input {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border    : medium none;
+	color     : #4c4c4c;
+	font-size : 15px;
+	min-height: 48px;
+	width     : 100%;
+}
+
+.type_msg {
+	border-top: 1px solid #c4c4c4;
+	position  : relative;
+}
+
+.messaging {
+	padding: 0 0 50px 0;
+}
+
+.msg_history {
+	/* height: 516px; */
+	overflow-y: visible;
+
+}
+
+.message-form {
+	height          : 50px;
+	border-top      : 1.5px solid #e0e2e4;
+	padding         : 0px 20px 15px 0px;
+	position        : fixed;
+	width           : 100%;
+	bottom          : 0px;
+	background-color: #fff;
+	z-index         : 999 !important;
+}
+
+.message-form input {
+	width     : 90%;
+	border    : none;
+	outline   : none;
+	font-size : 16px;
+	margin-top: 5px;
+}
+
+.message-form img {
+	float     : right;
+	margin-top: 10px;
+}
+
+.msg_send_btn {
+	position      : absolute;
+	z-index       : 1;
+	right         : 10px;
+	bottom        : 10px;
+	color         : #fff;
+	border        : none;
+	background    : #007100;
+	font-size     : 12px;
+	text-transform: uppercase;
+	padding       : 8px 12px;
+	border-radius : 20px;
+	outline       : none !important;
+	transition    : background 0.2s ease;
+	cursor        : pointer;
+}
+
+.msg_send_btn {
+	margin-right: 8px;
+}
+
+.msg_send_btn:hover {What are the types of central questionnaires?
+	background: #fff;
+	color     : #333;
+}
+
+#send_button {
+	position      : fixed;
+	z-index       : 999;
+	right         : 20px;
+	bottom        : 0px;
+	color         : #fff;
+	border        : none;
+	background    : #007100;
+	font-size     : 12px;
+	text-transform: uppercase;
+	padding       : 8px 12px;
+	border-radius : 20px;
+	outline       : none !important;
+	transition    : background 0.2s ease;
+	cursor        : pointer;
+	margin-bottom : 7;
+	opacity       : 0.5;
+}
+
+.logo {
+	width : 100px;
+	height: 100px;
+}
+
+@media only screen and (max-width:600px) {
+	.received_withd_msg {
+		width: 100%;
+	}
+
+	.received_msg {
+		display       : inline-block;
+		vertical-align: top;
+		width         : 50%;
+	}
+
+	.sent_msg {
+		display       : inline-block;
+		vertical-align: top;
+		width         : 50%;
+	}
+
+	.sent_msg_img {
+		width: 20%;
+	}
+
+	.incoming_msg_img {
+		width: 12%
+	}
+}

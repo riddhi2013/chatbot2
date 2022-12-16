@@ -1,0 +1,86 @@
+
+{% load static %}
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+<html>
+<head>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
+
+
+
+
+ <head>
+        <meta charset = "utf-8" />
+
+        <title>
+         Inquiry Form
+        </title>
+
+        <!-- add icon link -->
+        <link rel = "icon" href =
+"{% static 'images/logo1.jpeg' %}"
+        type = "image/x-icon">
+
+    </head>
+
+  <div class="header">
+  <img src="{% static 'images/logo1.jpeg' %}" alt="logo" />
+
+</div>
+<br>
+<br>
+<br>
+
+<body>
+<div class="container">
+
+<div class="container">
+    <div class="col-md-18 col-lg-6">
+        <div class="panel">
+
+
+
+</h3>
+
+          </div>
+        </div>
+
+        <div class="mesgs">
+          <div class="msg_history">
+          	<div id="msg">
+
+          			<p style="font-size:20px; align:center">INQUIRY FORM</p>
+
+
+
+        </div>
+              <form action = "" method = "post">
+              {% csrf_token %}
+                  {{form.as_p }}
+              <input id="send_button" type="submit" value="Submit"/>
+            </form>
+<div id="response">
+</div>
+
+
+    </form>
+
+        </div>
+      </div>
+
+
+
+
+    </div></div>
+</div>
+</div>
+</div>
+
+    </body>
+    </html>
